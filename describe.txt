@@ -1,0 +1,12 @@
+Api em express
+
+O que e
+
+Uma api de usuario com crud basic e auto documentado
+
+-- Capacidades
+
+possui CRUD
+Auto Documentada
+
+Ferramneta necessaria: nodejs, express, mongoDB, swagger
