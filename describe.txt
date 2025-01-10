@@ -10,3 +10,13 @@ possui CRUD
 Auto Documentada
 
 Ferramneta necessaria: nodejs, express, mongoDB, swagger
+
+git add .
+git commit -m "atualizado"
+
+git pull origin master
+
+git push origin master
+
+![Swagger UI](docs/swagger-ui.png)
+

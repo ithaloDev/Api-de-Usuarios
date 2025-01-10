@@ -5,7 +5,6 @@ API para gerenciamento de usuários
 Para instalar e rodar a API localmente:
 
 
-
 ```bash
 git clone https://github.com/ithaloDev/Api-de-Usuarios.git
 cd Api-de-Usuarios
@@ -20,16 +19,19 @@ Retorna todos os usuários.
 ### POST /users/create
 Cria um novo usuário.
 
-Body: { "name": "Nome", "email": "email@example.com" }
+Body: { "user": "exemple234", "email": "example2322@example.com" }
 
 ### PUT /users/:id
 Atualiza um usuário existente.
 
-Body: { "name": "Nome Atualizado", "email": "updated@example.com" }
+Body: { "user": "example25", "email": "example@example.com" }
 
 ### DELETE /users/:id
 Exclui um usuário pelo ID.
 
 ### Swagger
 A API possui documentação Swagger. Abaixo está uma imagem da api
+
+![Swagger UI](./docs/swagger-ui.png)
+
 
